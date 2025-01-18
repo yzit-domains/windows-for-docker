@@ -3,7 +3,10 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "11"
+      VERSION: "2022"
+      LANGUAGE: "CN"
+      USERNAME: "Administractor"
+      PASSWORD: "Yzit7@wecom.work"
     devices:
       - /dev/kvm
       - /dev/net/tun
